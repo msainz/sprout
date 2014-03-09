@@ -1,4 +1,5 @@
 site 'http://community.opscode.com/api/v1'
+cookbook 'dmg', '2.0.4'
 
 cookbook 'pivotal_workstation', :path => './pivotal_workstation'
 cookbook 'sprout-osx-base',     :path => './sprout-osx-base'
@@ -9,3 +10,4 @@ cookbook 'sprout-osx-rubymine', :path => './sprout-osx-rubymine'
 cookbook 'sprout-osx-rbenv',    :path => './sprout-osx-rbenv'
 cookbook 'sprout-pivotal',      :path => './sprout-pivotal'
 cookbook 'osx',                 :path => './osx'
+cookbook 'homebrew'

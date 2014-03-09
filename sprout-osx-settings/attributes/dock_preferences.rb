@@ -1,6 +1,8 @@
-node.default['dock_preferences']= {
+node.default['sprout']['dock_preferences']= {
   'orientation' => 'left',
-  'autohide' => true,
-  'clear_apps' => true,
-  'tilesize' => 75
+  'auto_hide' => true,
+  #'clear_apps' => true,
+  #'tile_size' => 50,
+  #'large_size' => 60,
+  #'magnification' => true
 }
